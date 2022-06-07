@@ -76,16 +76,45 @@ isNaN (Number(numero2)) ? console.log("es un NAN") : console.log("es un numero")
     console.log("Alguno de los datos son incorrectos");
 }  */
 
-let numero = 12;
+//let numero = prompt("introduce un numero");
 
-/* while (numero >10) {
-    console.log("numero mayor que 10");
-    numero--;
+//!isNaN(Number(numero)) && numero > 0 ? console.log("es un NAN"): console.log("numero incorrecto");
+
+/* if (!isNan(Number(numero)) && numero > 0) {
+    while (numero > 0) {
+        console.log(numero);
+        numero--;
+    }
+} else {
+    console.log("numero incorrecto");
+}
+
+let num1 = prompt("primer numero");
+let num2 = prompt("segundo numero");
+
+
+let max, min;
+
+if (num1 > num2) {
+    max = num1;
+    min = num2;
+} else {
+    max = num2;
+    min = num1;
 } */
 
-do {
-    
-} while (condition);
+// for -- repeticiones sobre estructura --> array
+
+let numeros =  [1,2,3,45,5,6,67,8]; // number
+let posicion = 0;
+numeros.forEach((element, indice) => {
+    if (posicion % 2 == 0){
+        console.log(element);
+    }
+    //posicion++;
+});
+
+
 
 
 
