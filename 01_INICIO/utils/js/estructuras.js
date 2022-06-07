@@ -43,7 +43,7 @@ switch (nota) {
         console.log("dato incorrecto");
         break;
 } */
-
+/* 
 let numero1 = prompt(`Por favor introduce el primer numero`);
 console.log(numero1);
 
@@ -53,7 +53,7 @@ console.log(numero2);
 /* isNaN (Number(numero1)) ? console.log("es un NAN") : console.log("es un numero");
 isNaN (Number(numero2)) ? console.log("es un NAN") : console.log("es un numero"); */
 
-if (!isNAN(Number(numero1))&& !isNAN(Number(numero2)) && numero1 > 0 && numero2 >0) {
+/* if (!isNAN(Number(numero1))&& !isNAN(Number(numero2)) && numero1 > 0 && numero2 >0) {
     let operacion = prompt("Introduce la operacion");
     switch (operacion) {
         case "suma":
@@ -74,9 +74,18 @@ if (!isNAN(Number(numero1))&& !isNAN(Number(numero2)) && numero1 > 0 && numero2 
     }
 } else {
     console.log("Alguno de los datos son incorrectos");
-}
+}  */
 
+let numero = 12;
 
+/* while (numero >10) {
+    console.log("numero mayor que 10");
+    numero--;
+} */
+
+do {
+    
+} while (condition);
 
 
 
