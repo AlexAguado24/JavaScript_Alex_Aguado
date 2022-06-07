@@ -44,9 +44,40 @@ switch (nota) {
         break;
 } */
 
-let numero1 = prompt(`Por favor introduce el primer numero`,"numero");
+let numero1 = prompt(`Por favor introduce el primer numero`);
 console.log(numero1);
 
-let numero2 = prompt(`Por favor introduce el segundo numero`,"numero");
+let numero2 = prompt(`Por favor introduce el segundo numero`);
 console.log(numero2);
+
+/* isNaN (Number(numero1)) ? console.log("es un NAN") : console.log("es un numero");
+isNaN (Number(numero2)) ? console.log("es un NAN") : console.log("es un numero"); */
+
+if (!isNAN(Number(numero1))&& !isNAN(Number(numero2)) && numero1 > 0 && numero2 >0) {
+    let operacion = prompt("Introduce la operacion");
+    switch (operacion) {
+        case "suma":
+            alert(`La suma entre ${numero1} y ${numero2} es ${numero1+numero2}`);
+            break;
+        case "resta":
+            alert(`La resta entre ${numero1} y ${numero2} es ${numero1-numero2}`);
+            break;
+        case "division":
+            alert(`La division entre ${numero1} y ${numero2} es ${numero1/numero2}`); 
+            break;
+        case "suma":
+            alert(`La suma entre ${numero1} y ${numero2} es ${numero1+numero2}`); 
+            break;
+        default:
+            alert("operacion desconocida");
+            break;
+    }
+} else {
+    console.log("Alguno de los datos son incorrectos");
+}
+
+
+
+
+
 
